@@ -1,0 +1,112 @@
+.container-contact100 {
+    width: 100%;  
+    min-height: 100vh;
+    padding-top: 50px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+    background: transparent;
+  /*  position: relative;*/
+    z-index: 1;
+  }
+
+  #zonadatos{
+    float: left;
+    width: 623px;
+    height: 649px;
+    margin:20px 20px;
+    padding: 82px 55px 33px 55px;
+    min-height: 100vh;
+    z-index: -2;
+    background: #fff;
+    border-radius: 2px;
+
+}
+  
+  #contact100-map {
+    position: absolute;
+    z-index: -2;
+    width: calc(100% - 640px);
+    height: 50%;
+    top: 0;
+    left: 0;
+  }
+  
+  .wrap-contact100 {
+    width: 600px;
+    min-height: 100vh;
+    background: #fff;
+    border-radius: 2px;
+    padding: 82px 55px 33px 55px;
+    /*position: relative;*/
+  }
+  
+  .show-wrap-contact100 {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  /*==================================================================
+[ Form ]*/
+
+.contact100-form {
+    width: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 68px;
+  }
+  
+  .contact100-form-title {
+    display: block;
+    width: 100%;
+    font-family: Poppins-Bold;
+    font-size: 39px;
+    color: #333333;
+    line-height: 1.2;
+    text-align: left;
+    padding-bottom: 64px;
+  }
+
+  .wrap-input100 {
+    width: 100%;
+    position: relative;
+    border-bottom: 2px solid #dbdbdb;
+    margin-bottom: 45px;
+  }
+  
+  .label-input100 {
+    font-family: Poppins-SemiBold;
+    font-size: 18px;
+    color: #999999;
+    line-height: 1.2;
+    padding-left: 2px;
+  }
+
+  /*==================================================================
+[ Social ]*/
+.contact100-form-social {
+    padding-top: 100px;
+  }
+  
+  .contact100-form-social-item {
+    width: 36px;
+    height: 36px;
+    font-size: 18px;
+    color: #fff;
+    border-radius: 50%;
+  }
+  
+  .contact100-form-social-item:hover {
+    background: #404b46;
+    color: #fff;
+  }
