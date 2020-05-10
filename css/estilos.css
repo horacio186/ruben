@@ -142,7 +142,8 @@ body{
 
 }
 
-  /*  boletin */
+
+ /*  boletin */
 #boletin{
     padding:10px;
     color:#ffffff;
@@ -246,6 +247,7 @@ body{
     height: 280px;
     text-align: center;
     padding: 20px;
+    -webkit-transition: -webkit-transform 0.3s ease-in-out 0.1s;
     box-shadow: 0px 0px 4px 0 rgba(52, 73, 94, 0.849);
 }
 
@@ -264,5 +266,156 @@ body{
     text-align: center;
     color: rgb(105, 61, 61);
 }
+   
+
+.card img:hover {
+  /* indica que en el navegador chrome la imagen crezca 1.2 */
+  -webkit-transform: scale(1.2);
+
+}
+
+/* footer */
+
+
+.titulo-final{
+  background-color: #24282b;
+  text-align: center;
+  font-size: 24px;
+  padding: 30px 0 30px 0;
+    margin: auto;
+  color: #9e9797;
+}
   
+/* Media Queries */
+@media screen and (max-width:900px){
+  header{
+      background-position: center;
+  }
+
+  .main{
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .main .cabecera{
+      width: 90%;
+  }
+
+  /* Galeria */
+
+  .imagen-port{
+      width: 44%;
+  }
+
+  /* servicios */
+
+  .cards{
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .cards .card{
+      width: 90%;
+      text-align: center;
+  }
+
+  .cards .card:first-child, .cards .card:nth-child(2){
+      margin-bottom: 60px;
+  }
+
+  .cards img{
+    width: 90%;
+}
+
   
+}
+
+@media screen and (max-width:500px){
+  header #marca,
+  header nav,
+  header nav li,
+  #boletin h1,
+  #boletin form
+  {
+    float:none;
+    text-align:center;
+    width:100%;
+  }
+
+  nav{
+      text-align: center;
+      padding: 30px 0 0 0;
+  }
+
+  nav > a{
+      margin-right: 5px;
+  }
+
+  #cabecera h1{
+      font-size: 35px;
+  }
+
+  #cabecera p{
+      font-size: 20px;
+  }
+
+  #boletin h1{
+    margin-top:40px;
+  }
+
+  #boletin button{
+    display:block;
+    width:100%;
+  }
+
+  #boletin form {
+    width:100%;
+    margin-bottom:5px;
+  }
+
+  /* ABOUT US */
+
+  .imagen-about-us{
+      margin-bottom: 60px;
+      width: 99%;
+  }
+
+  .portafolio .titulo, .miembros .titulo{
+      width: 95%;
+  }
+
+  /* Galeria */
+
+  .imagen-port{
+      width: 60%;
+  }
+
+  /* Clients */
+
+  .cards .card{
+      height: 450px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .cards .card img{
+      width: 90px;
+      height: 90px;
+  }
+
+  .container-contact100{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color:#f4f4f4;
+  }
+  /* Footer */
+
+ footer .titulo-final{
+   display: none;
+    
+  }
+}

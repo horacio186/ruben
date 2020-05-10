@@ -18,7 +18,7 @@
   #zonadatos{
     float: left;
     width: 623px;
-    height: 649px;
+    height: 730px;
     margin:20px 20px;
     padding: 82px 55px 33px 55px;
     min-height: 100vh;
@@ -93,7 +93,7 @@
   }
 
   /*==================================================================
-[ Social ]*/
+[ Social contacto ]*/
 .contact100-form-social {
     padding-top: 100px;
   }
@@ -109,4 +109,9 @@
   .contact100-form-social-item:hover {
     background: #404b46;
     color: #fff;
+  }
+
+  .redes img:hover {
+    -webkit-transform: scale(1.1);
+   
   }
