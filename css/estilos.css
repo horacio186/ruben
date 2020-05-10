@@ -96,6 +96,13 @@ body{
   header #marca h1{
     margin:0;
   }
+
+  
+.menu-icon {
+  color: white;
+  display: none;
+
+}
   
   header nav{
     float:right;
@@ -333,6 +340,11 @@ body{
 }
 
 @media screen and (max-width:500px){
+
+  .contenedor{
+    width:80%;
+  }
+
   header #marca,
   header nav,
   header nav li,
@@ -343,6 +355,51 @@ body{
     text-align:center;
     width:100%;
   }
+
+  /* menu responsive */
+  .menu-icon {
+
+    display: block;
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+    color: white;
+  }
+
+  .navigation {
+    width: 100%;
+    margin-top: 1rem;
+} 
+
+.navigation {
+    display: none;
+    
+} 
+
+.navigation  ul.show {
+    display: block;
+  
+}
+
+.navigation ul li {
+    display: block;
+}
+
+.navigation ul li a{
+  color: white;
+  display: block;
+  padding: 0.5rem 0;
+  transition: all 0.4s linear;
+ border-radius: 5px;
+}
+
+ 
+.navigation ul li a:hover{
+  background-color: #4a4a4a;
+  
+}
+
+/* fin menu responsive */
+
 
   nav{
       text-align: center;
@@ -383,7 +440,8 @@ body{
   }
 
   .portafolio .titulo, .miembros .titulo{
-      width: 95%;
+    width: 99%;
+      align-items: center;
   }
 
   /* Galeria */
