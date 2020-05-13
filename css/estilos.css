@@ -351,7 +351,7 @@ color: #9e9797;
 
 @media screen and (max-width:800px){
 
-
+  
 /* botones redes sociales fijos*/
 
 .social {
@@ -450,9 +450,10 @@ padding: 15px 0 15px 0;
 
 header nav ul li{
   display:block;
-  font-size: 2px;
+  font-size: 1px;
   text-align: center;
- 
+  padding: 1px 10px 5px 15px
+  
 }
 
 /* menu responsive */
