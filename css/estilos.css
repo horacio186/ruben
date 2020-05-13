@@ -188,9 +188,24 @@ header a:hover{
 }
 
 section .correo a{
-  color:#ffffff;
+  color:rgb(128, 202, 106);
   font-weight:bold;
 }
+
+.boton {
+  display: inline-block;
+  padding: 6px;
+  width: 128px;
+  border: 1px solid rgb(128, 202, 106);
+  color: #fff;
+  font-size: 13px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 16px;
+  
+}
+
+
 
 /* fin formulario boletin */
 
@@ -528,6 +543,7 @@ font-weight:bold;
     text-align: left;
     margin-left: 50px;
 }
+
 
 .card{
     height: 380px;
