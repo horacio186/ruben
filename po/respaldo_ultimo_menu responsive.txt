@@ -1,0 +1,42 @@
+/* menu responsive */
+.menu-icon {
+
+  display: block;
+  cursor: pointer;
+  padding: 0 7rem;
+  color: white;
+}
+
+.navigation {
+  width: 100%;
+  
+} 
+
+.navigation  ul {
+display:none;
+}
+
+.navigation  ul.show {
+  display:block;
+
+}
+
+.navigation ul li {
+  display: block;
+}
+
+.navigation ul li a{
+color: white;
+display: block;
+padding: 0.5rem 0;
+transition: all 0.4s linear;
+border-radius: 5px;
+}
+
+
+.navigation ul li a:hover{
+background-color: #4a4a4a;
+
+}
+
+/* fin menu responsive */

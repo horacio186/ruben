@@ -20,8 +20,8 @@
     float: left;
     width: 623px;
     height: 730px;
-    margin:20px 20px;
-    padding: 82px 55px 33px 55px;
+    margin:0px 0px;
+    padding: 82px 50px 33px 50px;
     min-height: 100vh;
     z-index: -2;
     background: #fff;
@@ -31,7 +31,7 @@
   
    
   .wrap-contact100 {
-    width: 600px;
+    width: 621px;
     min-height: 100vh;
     background: #fff;
     border-radius: 2px;

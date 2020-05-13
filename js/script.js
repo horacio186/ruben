@@ -1,7 +1,7 @@
 
 $(document).ready(function() {
 
-    var menuBtn = $('.menu-icon');
+    var menuBtn = $('.menu_icon');
     var menu = $('.navigation ul');
     menu.removeClass('show');
     

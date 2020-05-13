@@ -13,6 +13,7 @@
     <!--===============================================================================================-->
     <link rel="stylesheet" href="css/estilos.css">
     <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" href="css/font.css">
     <script src="vendor/jquery/jquery-3.2.1.min.js"></script>
    
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800&display=swap" rel="stylesheet"> 
@@ -23,9 +24,9 @@
     <header>
       <div class="contenedor">
         <div id="marca">
-          <h1><span class="resaltado">Logo</span> Nombre empresa</h1>
+          <h1><span class="resaltado">Logo</span> </h1>
         </div>
-        <span class="menu-icon">Ver Menú</span>
+          <div class="menu_icon"><a href="#" class="bt-menu"><span class="icon-menu"></span>Menu</a></div>
         <nav class="navigation">
           <ul class="show">
             <li class="actual"><a href="index.html">Marcas</a></li>
@@ -34,25 +35,25 @@
           </ul>
         </nav>
       </div>
-    </header>
-
-   <main class="main">  
-    <section id="cabecera">
-      <div class="contenedor">
+  
+  <section class="cabecera">
+      <div class="contenedor textos-hero">
         <h1>Profesionales Expertos en Servicios ZF</h1>
         <p>Contáctenos vía email, teléfono y Whatsapp</p>
       </div>
     </section>
-
+    
     <section id="boletin">
       <div class="contenedor">
-        <h1>Despacho a todo Chile, contáctenos <span class="correo"><a href="mailto:ortega.farina@gmail.com?Subject=Interesado%20en%20nuestros%20servicios"> haga click aquí</a></span></h1>
+        <h1>Despacho a todo Chile, contáctenos <span class="correo"><a href="mailto:"rubengonzalezcc@gmail.com?Subject=Interesado%20en%20nuestros%20servicios"> haga click aquí</a></span></h1>
         <form>
            <button type="submit" class="boton1" onclick="#">Escribenos</button>
         </form>
       </div>
     </section>
+  </header>
 
+  <main class="main"> 
     <!--Nuestras Marcas-->
     <section class="portafolio">
       <div class="contenedor">
@@ -175,6 +176,12 @@
       </div>
     </div>
  <!--fin contactenos-->   
+ <div class="social">
+  <ul>
+    <li><a href="https://www.facebook.com/horacio.o.farina" target="_blank" class="icon-facebook"><img src="img/402-facebook2.png"  alt="Visítenos" width="40"/></a></li>
+    <li><a href="https://api.whatsapp.com/send?phone=56990772640&text=Hola%2C%20desea%20obtener%20un%20servicio%20con%20nosotros" target="_blank" class="icon-what"><img src="img/whatsapp.png" width="40"  alt="Contáctenos"></a></li>
+  </ul>
+</div>
 
 <!--whatsaap-->
   <div class="btn-whatsapp">
@@ -184,15 +191,14 @@
     </div>
 
 <!--fin whatsaap-->
- 
+<script src="js/script.js"></script>
+<script>
+  document.cookie = 'same-site-cookie=foo; SameSite=Lax'; 
+  document.cookie = 'cross-site-cookie=bar; SameSite=None';
+</script>
 </main>
  <footer>
-    <h2 class="titulo-final">&copy; Rubèn González | Nombre de la empresa</h2>
+    <h2 class="tit-final">&copy; Rubèn González | Nombre de la empresa</h2>
 </footer>
-   <script>
-    document.cookie = 'same-site-cookie=foo; SameSite=Lax'; 
-    document.cookie = 'cross-site-cookie=bar; SameSite=None';
-  </script>
-   <script src="js/script.js"></script>
-  </body>
+ </body>
 </html>

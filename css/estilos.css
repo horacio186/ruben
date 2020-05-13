@@ -4,508 +4,576 @@
 //-------------------------------
 ************/
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body{
-    font-family: 'open sans';
-    padding:0;
-    margin:0;
-    background-color:#f4f4f4;
-  }
-  
-  /* Estilos globales */
-  .contenedor{
-    padding: 10px 0px;
-    width: 90%;
-    max-width: 1000px;
-    margin: auto;
-    overflow: hidden;
-  }
-  
-  ul{
-    margin:0;
-    padding:0;
-  }
-  
-  .boton1{
-    height:38px;
-    background:#e8491d;
-    border:0;
-    padding-left: 20px;
-    padding-right:20px;
-    color:#ffffff;
-  }
-  
-  .btn-whatsapp {
-    display:block;
-    width:80px;
-    height:80px;
-    color:rgba(52, 73, 94, 0.815);
-    position: fixed;
-    right:20px;
-    bottom:20px;
-    border-radius:50%;
-    line-height:80px;
-    text-align:center;
-    z-index:999;
+  font-family: 'open sans';
+  padding:0;
+  margin:0;
+  background-color:#f4f4f4;
 }
 
-  .titulo {
-    color: #642a73;
-    font-size: 40px;
-    text-align: center;
-    margin-top: 40px;
-    margin-bottom: 30px;
-
-     }
-  
-  /* Encabezado **/
-  header{
-    background:#24282b;
-    color:#ffffff;
-    padding-top:5px;
-    min-height:70px;
-    border-bottom:#1293d4 5px solid;
-    position: fixed;
-    left: 0;
-    top: 0;
-    right: 0;
-  }
-  
-  header a{
-    color:#ffffff;
-    text-decoration:none;
-    text-transform: uppercase;
-    font-size:15px;
-    
-  }
-  
-  header li{
-    float: left;
-    display:inline;
-    padding: 0 20px 0 20px;
-  }
-  
-  header #marca{
-    float:left;
-  }
-  
-  header #marca h1{
-    margin:0;
-  }
-
-  
-.menu-icon {
-  color: white;
-  display: none;
-
+/* Estilos globales */
+.contenedor{
+  padding: 10px 0px;
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+  overflow: hidden;
 }
-  
-  header nav{
-    float:right;
-    margin-top: 5px;
-  }
-  
-  header .resaltado, header .actual a{
-    color:#1293d4;
-    font-weight:bold;
-  }
-  
-  header a:hover{
-    color:#cccccc;
-    font-weight:bold;
-  }
-  
-  /* Cabecera con imagen */
-  #cabecera{
-    min-height:400px;
-    background:url('../img/cabecera.jpg') no-repeat 0 -400px;
-    text-align:center;
-    color:#ffffff;
-    font-weight:bold;
-  }
-  
-  
-  #cabecera h1{
-    margin-top:120px;
-    font-size:50px;
-    margin-bottom:15px;
-    color:#cf1818;
-    font-weight:bold;
-  }
-  
-  #cabecera p{
-    font-size:20px;
-    color:#cf1818;
-  }
 
-  
-  .main {
+ul{
+  margin:0;
+  padding:0;
+}
 
-    padding-top: 4rem;
+.boton1{
+  height:38px;
+  background:#e8491d;
+  border:0;
+  padding-left: 20px;
+  padding-right:20px;
+  color:#ffffff;
+}
 
+.btn-whatsapp {
+  display:block;
+  width:80px;
+  height:80px;
+  color:rgba(52, 73, 94, 0.815);
+  position: fixed;
+  right:20px;
+  bottom:20px;
+  border-radius:50%;
+  line-height:80px;
+  text-align:center;
+  z-index:999;
+}
+
+.titulo {
+  color: #642a73;
+  font-size: 40px;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 30px;
+
+   }
+
+/* Encabezado **/
+header{
+  width: 100%;
+  height: 70px;
+  background:#24282b;
+  color:#ffffff;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+}
+
+header a{
+  color:#ffffff;
+  text-decoration:none;
+  text-transform: uppercase;
+  font-size:15px;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+}
+
+header li{
+  float: left;
+  display:inline;
+  padding: 0 20px 0 20px;
+}
+
+header #marca{
+  float:left;
+}
+
+header #marca h1{
+  margin:0;
 }
 
 
- /*  boletin */
+.menu_icon {
+margin-top:10px;
+color: white;
+display: none;
+
+}
+
+header nav{
+  float:right;
+  max-width:1000px;
+  margin-top: 10px;
+}
+
+header .resaltado, header .actual a{
+  color:#1293d4;
+  font-weight:bold;
+}
+
+header a:hover{
+  color:#cccccc;
+  font-weight:bold;
+}
+
+/* Cabecera con imagen */
+.cabecera{
+  min-height:400px;
+  background:url('../img/cabecera.jpg') no-repeat 0 -400px;
+  width: 100%;
+  height: 450px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  position: relative;
+  overflow: hidden;
+ 
+}
+
+.contenedor .textos-hero{
+  height: 500px;
+  color:#cf1818;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.textos-hero h1{
+  margin: auto;
+  margin-top:120px;
+  margin-left: 180px;
+  font-size: 60px;
+  color:#cf1818;
+  font-weight:bold;
+}
+
+.textos-hero p{
+  font-size: 25px;
+  color:#cf1818;
+  margin-left: 180px;
+  margin-bottom: 20px;
+}
+
+
+.main {
+
+  padding-top: 35rem;
+
+}
+
+
+/*  boletin */
 #boletin{
-    padding:10px;
-    color:#ffffff;
-    font-size: 0.8rem;
-    background:#24282b;
-  }
-  
-  #boletin h1{
-    float:left;
-  }
-  
-  #boletin form {
-    float:right;
-    margin-top:10px;
-  }
+  padding:10px;
+  color:#ffffff;
+  font-size: 0.8rem;
+  background:#24282b;
+}
 
-  section .correo a{
-    color:#ffffff;
-    font-weight:bold;
-  }
+#boletin h1{
+  float:left;
+}
+
+#boletin form {
+  float:right;
+  margin-top:10px;
+}
+
+section .correo a{
+  color:#ffffff;
+  font-weight:bold;
+}
 
 /* fin formulario boletin */
 
 
 /* Galeria marcas */
 .portafolio{
-    background: #f2f2f2;
+  background: #f2f2f2;
 }
 
 .galeria-port{
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
+display: flex;
+justify-content: space-evenly;
+flex-wrap: nowrap;
 }
 
+
 .imagen-port{
-    width: 13%;
-    margin-bottom: 10px;
-    overflow: hidden;
-    position: relative;
-    cursor: pointer;
-    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
-    
+width: 15%;
+margin-bottom: 10px;
+overflow: hidden;
+position: relative;
+cursor: pointer;
+box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
 }
 
 .imagen-port > img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  margin: auto;
+  padding-top: 30px;
 }
 
 .hover-galeria{
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    transform: scale(0);
-    background: hsla(273,91%,27%, 0.7);
-    transition: transform .5s;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-direction: column;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  transform: scale(0);
+  background: hsla(273,91%,27%, 0.7);
+  transition: transform .5s;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
 }
 
 .hover-galeria img{
-    width: 60px;
+  width: 50px;
 }
 
 .hover-galeria p{
-    color: #fff;
+  color: #fff;
 }
 
 .imagen-port:hover .hover-galeria{
-    transform: scale(1);
+  transform: scale(1);
 }
 /* Fin Galeria marcas */
-  
+
 /* Servicios */
 
-.sobre-nosotros {
-    text-align: center;
-    font-size: 56px;
-    margin-bottom: 10px;
-    font-weight: 600;
+.miembros{
+display: flex;
+width: 100%;
+justify-content: space-evenly;
+flex-wrap: wrap;
 }
 
-
 .cards {
-    width: 100%;
-    margin: auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .card {
-    margin: 20px 0px;
-    width: 30%;
-    height: 280px;
-    text-align: center;
-    padding: 20px;
-    -webkit-transition: -webkit-transform 0.3s ease-in-out 0.1s;
-    box-shadow: 0px 0px 4px 0 rgba(52, 73, 94, 0.849);
+  margin: 20px 0px;
+  width: 30%;
+  height: 280px;
+  text-align: center;
+  padding: 20px;
+  -webkit-transition: -webkit-transform 0.3s ease-in-out 0.1s;
+  box-shadow: 0px 0px 4px 0 rgba(52, 73, 94, 0.849);
 }
 
 .cards img {
-    width: 200px;
-    height: 140px;
-    object-fit: scale-down;
-    border-radius: 100%;
-    justify-content: center;
-   padding-left: 50px;
-    
+  width: 200px;
+  height: 130px;
+  margin: 30px 0 10px 0;
+  object-fit: scale-down;
+  border-radius: 100%;
+  justify-content: center;
+ padding-left: 20px;
+  
 }
 
 .cards  p {
-    font-size: 14px;
-    text-align: center;
-    color: rgb(105, 61, 61);
+  font-size: 14px;
+  font-weight: 300;
+  text-align: center;
+  color: rgb(105, 61, 61);
+  margin-bottom: 40px;
 }
-   
+ 
 
 .card img:hover {
-  /* indica que en el navegador chrome la imagen crezca 1.2 */
-  -webkit-transform: scale(1.2);
+ /* indica que en el navegador chrome la imagen crezca 1.2 */
+-webkit-transform: scale(1.2);
+cursor: pointer;
 
 }
+
+/* botones redes sociales fijos*/
+
+.social {
+position: fixed; /* Hacemos que la posición en pantalla sea fija para que siempre se muestre en pantalla*/
+left: 0; /* Establecemos la barra en la izquierda */
+top: 400px; /* Bajamos la barra 200px de arriba a abajo */
+z-index: 2000; /* Utilizamos la propiedad z-index para que no se superponga algún otro elemento como sliders, galerías, etc */
+}
+
+.social ul {
+  list-style: none;
+}
+
+.social ul li a {
+  display: inline-block;
+  color:#fff;
+  background: #000;
+  padding: 10px 18px;
+  text-decoration: none;
+  -webkit-transition:all 500ms ease;
+  -o-transition:all 500ms ease;
+  transition:all 500ms ease; /* Establecemos una transición a todas las propiedades */
+}
+
+.social ul li .icon-facebook {background:#3b5998;} /* Establecemos los colores de cada red social, aprovechando su class */
+.social ul li .icon-what {background: #30e681;}
+ 
+.social ul li a:hover {
+  background: rgb(245, 24, 24); /* Cambiamos el fondo cuando el usuario pase el mouse */
+  padding: 10px 30px; /* Hacemos mas grande el espacio cuando el usuario pase el mouse */
+}
+/* fin botones redes sociales fijos*/
+
 
 /* footer */
-
-
-.titulo-final{
-  background-color: #24282b;
-  text-align: center;
-  font-size: 24px;
-  padding: 30px 0 30px 0;
-    margin: auto;
-  color: #9e9797;
+.tit-final{
+background-color: #24282b;
+text-align: center;
+font-size: 24px;
+padding: 30px 0 30px 0;
+margin: auto;
+color: #9e9797;
 }
+
+@media screen and (max-width:800px){
+
+
+/* botones redes sociales fijos*/
+
+.social {
+  position: fixed; /* Hacemos que la posición en pantalla sea fija para que siempre se muestre en pantalla*/
+  left: 0; /* Establecemos la barra en la izquierda */
+  top: 300px; /* Bajamos la barra 200px de arriba a abajo */
+  z-index: 2003; /* Utilizamos la propiedad z-index para que no se superponga algún otro elemento como sliders, galerías, etc */
+  }
   
-/* Media Queries */
-@media screen and (max-width:900px){
-  header{
-      background-position: center;
+  .social ul {
+    list-style: none;
   }
-
-  .main{
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
+  
+  .social ul li a {
+    display: inline-block;
+    color:#fff;
+    background: #000;
+    padding: 5px 5px;
+    text-decoration: none;
+    -webkit-transition:all 500ms ease;
+    -o-transition:all 500ms ease;
+    transition:all 500ms ease; /* Establecemos una transición a todas las propiedades */
   }
-
-  .main .cabecera{
-      width: 90%;
-  }
-
-  /* Galeria */
-
-  .imagen-port{
-      width: 44%;
-  }
-
-  /* servicios */
-
- 
+  
+  .social ul li .icon-facebook {background:#3b5998;} /* Establecemos los colores de cada red social, aprovechando su class */
+  .social ul li .icon-what {background: #30e681;}
    
-  .cards{
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
+  .social ul li a:hover {
+    background: rgb(245, 24, 24); /* Cambiamos el fondo cuando el usuario pase el mouse */
+    padding: 10px 20px; /* Hacemos mas grande el espacio cuando el usuario pase el mouse */
+  }
+  /* fin botones redes sociales fijos*/
+
+.wrap-contact100 {
+  width: 440px;
+}
+
+#zonadatos {
+  width: calc(100% - 440px);
+  height: 650px;
+}
+
+.textos-hero h1{
+    text-align: center;
+    margin-left: 50px;
+    font-size: 50px;
+}
+
+.textos-hero p{
+  font-size: 30px;
+  text-align: left;
+  margin-left: 50px;
+} 
+
+/* estilos generales */
+.titulo{
+    font-size: 25px;
+    text-align: center;
+}
+
+
+
+/* Cards */
+
+.card{
+    width: 70%;
+    margin-bottom: 20px;
+}
+
+/* galeria */
+
+.galeria-port{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
   }
 
-  .cards .card{
-      width: 50%;
-      text-align: center;
-     
-  }
-
-  .cards .card:first-child{
-    margin-bottom: 30px;
+.imagen-port{
+  width: 34%;
 }
 
-  .cards img{
-    width: 80%;
+.redes img {
+cursor: pointer;
 }
 
-  
+.tit-final {
+font-size: 20px;
+text-align:center;
+padding: 15px 0 15px 0;
 }
 
-@media screen and (max-width:500px){
+
+}
+
+@media screen and (max-width:456px){
+
+header nav ul li{
+  display:block;
+  font-size: 2px;
+  text-align: center;
  
-  .btn-whatsapp {
-    display:block;
-    width:80px;
-    height:80px;
-    color:rgba(52, 73, 94, 0.815);
-    position: fixed;
-    right:70px;
-    bottom:70px;
-    border-radius:50%;
-    line-height:80px;
-    text-align:center;
-    z-index:999;
 }
 
-  header #marca,
-  header nav,
-  header nav li,
-  #boletin h1,
-  #boletin form,
-  main
-  {
-    float:none;
-    text-align:center;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-  }
+/* menu responsive */
+.menu_icon {
 
-  .zonadatos {
-    text-align:center;
-    justify-content: center;
-    align-items: center;
+  display: block;
+  cursor: pointer;
+  padding: 0 7rem;
+  color: white;
+}
 
-  }
-  main{
-    width: 200%;
-  }
-
-  .contact100-form-title {
-   padding-left: 170px;
-  }
-
-  .contact100-form {
-    text-align:center;
-    justify-content: center;
-    align-items: center;
-  }
-
-  /* menu responsive */
-  .menu-icon {
-
-    display: block;
-    cursor: pointer;
-    padding: 0 7rem;
-    color: white;
-  }
-
-  .navigation {
-    width: 100%;
-    
+.navigation, .marca {
+  width: 100%;
+  background-color: #24282b;
 } 
 
 .navigation  ul {
-  display:none;
+display:none;
 }
 
 .navigation  ul.show {
-    display:block;
-  
+  display:block;
+ 
 }
 
 .navigation ul li {
-    display: block;
+  display: block;
+ 
 }
 
 .navigation ul li a{
-  color: white;
-  display: block;
-  padding: 0.5rem 0;
-  transition: all 0.4s linear;
- border-radius: 5px;
+color: white;
+display: block;
+padding: 0.5rem 0;
+transition: all 0.4s linear;
+border-radius: 5px;
+background-color: #24282b;
 }
 
- 
+
 .navigation ul li a:hover{
-  background-color: #4a4a4a;
-  
+background-color: #4a4a4a;
+color:#1293d4;
+font-weight:bold;
+
 }
 
 /* fin menu responsive */
 
+/* fin menu*/
+.main {
 
-  
+  padding-top: 38rem;
 
-  nav > a{
-      margin-right: 8px;
-  }
+}
 
-  #cabecera h1{
-      font-size: 35px;
-  }
+.titulo
+{
+    font-size: 15px;
+    text-align: center;
+}
 
-  #cabecera p{
-      font-size: 20px;
-  }
+.textos-hero h1{
+  font-size: 20px;
+  text-align: left;
+  margin-left: 50px;
+}
 
-  #boletin h1{
-    margin-top:40px;
-  }
+.textos-hero p{
+    font-size: 15px;
+    text-align: left;
+    margin-left: 50px;
+}
 
-  #boletin button{
-    display:block;
-    width:100%;
-  }
+.card{
+    height: 380px;
+}
 
-  #boletin form {
-    width:100%;
-    margin-bottom:5px;
-  }
 
-  /* ABOUT US */
+.imagen-port{
+  width: 80%;
+}
 
-  .imagen-about-us{
-      margin-bottom: 60px;
-      width: 99%;
-  }
+.cards img {
+  width: 95%;
+  justify-content: center;
+     
+}
 
-  .portafolio .titulo, .miembros .titulo{
-    width: 99%;
-      align-items: center;
-  }
+.btn-whatsapp {
+  display:block;
+  width:80px;
+  height:80px;
+  color:rgba(52, 73, 94, 0.815);
+  position: fixed;
+  right:10px;
+  bottom:60px;
+  border-radius:40%;
+  line-height:70px;
+  text-align:center;
+  z-index:1999;
+}
 
-  /* Galeria */
+.wrap-contact100 {
+width: 100%;
+}
 
-  .imagen-port{
-      width: 60%;
-  }
+#zonadatos {
+display: none;
+}
 
-  /* Clients */
+.redes img {
+cursor: pointer;
+}
 
-  .cards .card{
-      height: 450px;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-  }
 
-  .cards .card img{
-      width: 90px;
-      height: 90px;
-  }
 
-  .container-contact100{
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        background-color:#f4f4f4;
-  }
-  /* Footer */
+.tit-final {
+font-size: 10px;
+text-align:center;
+padding: 10px 0 10px 0;
+}
 
- footer .titulo-final{
-   display: none;
-    
-  }
 }
